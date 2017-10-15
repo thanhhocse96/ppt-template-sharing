@@ -1,6 +1,10 @@
 body { padding: 2em; }
 
-
+/* Login Page */
+.loginPage{
+  background-image: '../src/images/login-bg.jpg';
+}
+/* Login by Social */
 /* Shared */
 .loginBtn {
   box-sizing: border-box;
