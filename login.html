@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./src/images/Xshare.png" type="image/x-icon">
     <title>Login - XSHARE</title>
 </head>
+
 <body>
-    <form action="#" method="post">
-        <h6>Use your email:</h6>
-        <div class="icon1">
-            <input placeholder="Email" name="mail" type="email" required="">
+
+
+    <div class="container login-page">
+
+
+        <div class="col-6">
+            <button class="loginBtn loginBtn--facebook">
+                Login with Facebook
+            </button>
+
+            <button class="loginBtn loginBtn--google">
+                Login with Google
+            </button>
         </div>
-        
-        <div class="icon2">
-            <input  placeholder="Password" name="Password" type="password" required="">
+        <div class="col-6">
+            <form action="#" method="post">
+                <h6>Use your email:</h6>
+                <div class="icon1">
+                    <input placeholder="Email" name="mail" type="email" required="">
+                </div>
+
+                <div class="icon2">
+                    <input placeholder="Password" name="Password" type="password" required="">
+                </div>
+                <label class="anim">
+                    <input type="checkbox" class="checkbox">
+                    <span>Remember Me</span>
+                    <a href="#">Forgot Password</a>
+                </label>
+                <div class="clear"></div>
+                <input type="submit" value="Sign in">
+            </form>
         </div>
-        <label class="anim">
-        <input type="checkbox" class="checkbox">
-            <span>Remember Me</span> 
-            <a href="#">Forgot Password</a>
-        </label> 
-            <div class="clear"></div>
-        <input type="submit" value="Sign in">
-    </form>
+    </div>
 </body>
+
 </html>
