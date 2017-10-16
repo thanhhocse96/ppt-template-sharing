@@ -94,3 +94,27 @@ body, html {
   width: 60px;
   height: 60px;
 }
+
+/* Download page*/
+.downloadPageLeft, .downloadPageRight{
+  padding: 0px 50px;
+}
+.downloadPreview{
+  max-width:100%;
+  height:auto;
+  width:auto\9;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.downloadPageBtnStyle{
+  display: block;
+  margin: 0px auto;
+  background-color: rgb(74, 165, 226); /* Green */
+  border: none;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 4px;
+}
