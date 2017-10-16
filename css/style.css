@@ -3,6 +3,9 @@ body, html {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+div {
+  display: block;
+}
 
 /* Login Page */
 .loginPage{
@@ -111,6 +114,51 @@ body, html {
   width: 60px;
   height: 60px;
 }
+
+/* Navbar */
+.glyphicon {
+ color: #ff3f19;
+}
+
+/* Banner */
+#banner {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  height: 430px;
+  left: 0px;
+}
+.banner-tittle {
+  margin-top: 40px;
+  color: white;
+  font-size: 60px;
+}
+#banner .index-btn a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #595959;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin: 5px;
+  width: 220px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0px 0px 0px 1px #E7E7E7;
+}
+
+/* Search-form */
+.search-form {
+  color: white;
+  width:  60%;
+  float: none;
+  margin: 0;
+  display: block;
+}
+.form-tittle {
+  font-size: 20px;
+}
+
 
 .anim{
   font-size: 1em;
