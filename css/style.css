@@ -1,7 +1,9 @@
 body, html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 /* Login Page */
 .loginPage{
@@ -15,6 +17,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: auto;
 }
 /* Login by Social */
 /* Shared */
@@ -85,4 +88,9 @@ body, html {
 }
 .sign-in-form a{
   color: #ffffff;
+}
+
+.sign-in-logo{
+  width: 60px;
+  height: 60px;
 }
