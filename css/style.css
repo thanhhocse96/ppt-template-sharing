@@ -212,6 +212,10 @@ div {
   border-radius: 4px;
 }
 
+.downloadPageBtnStyle:hover {
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 /* Navbar */
 .glyphicon {
  color: #ff3f19;
@@ -271,8 +275,4 @@ a.button {
 
     text-decoration: none;
     color: initial;
-}
-
-.downloadPageBtnStyle:hover {
-  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
