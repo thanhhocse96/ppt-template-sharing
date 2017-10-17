@@ -161,7 +161,7 @@ div {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 400px;
+  height: 450px;
   left: 0px;
 }
 .banner-tittle {
@@ -192,6 +192,23 @@ div {
 }
 .form-tittle {
   font-size: 20px;
+}
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    white;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    white;
+ opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    white;
+ opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    white;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+ color:    white;
 }
 
 .anim{
