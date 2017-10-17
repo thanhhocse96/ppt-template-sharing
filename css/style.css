@@ -130,7 +130,9 @@ div {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  
+}
+.navbar-default .navbar-nav>li>a>span {
+  color: white;
 }
 @media (max-width: 767px) {
   .navbar {
@@ -147,6 +149,9 @@ div {
   }
   .navbar-default .navbar-nav>li>a {
     background: white;
+    color: #008af4;
+  }
+  .navbar-default .navbar-nav>li>a>span {
     color: #008af4;
   }
 }
