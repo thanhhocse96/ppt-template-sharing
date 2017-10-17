@@ -114,23 +114,54 @@ div {
   height: 60px;
 }
 
+.main-container {
+  position: relative;
+}
 /* Navbar */
 .glyphicon {
- color: #ff3f19;
+ color: #008af4;
+}
+.navbar {
+  color: white;
+}
+.container-fluid {
+  width: 80%;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  
+}
+@media (max-width: 767px) {
+  .navbar {
+    background: white;
+    color: #008af4;
+  }
+  .navbar-default {
+    background: white;
+    color: #008af4;
+  }
+  .navbar-expand-lg {
+    background: white;
+    color: #008af4;
+  }
+  .navbar-default .navbar-nav>li>a {
+    background: white;
+    color: #008af4;
+  }
 }
 
 /* Banner */
 #banner {
   position: absolute;
-  top: 90px;
+  top: 0;
   width: 100%;
-  height: 430px;
+  height: 400px;
   left: 0px;
 }
 .banner-tittle {
-  margin-top: 40px;
   color: white;
-  font-size: 60px;
+  font-size: 25px;
 }
 #banner .index-btn a {
   text-align: center;
@@ -149,7 +180,7 @@ div {
 /* Search-form */
 .search-form {
   color: white;
-  width:  60%;
+  width:  440px;
   float: none;
   margin: 0;
   display: block;
@@ -180,9 +211,39 @@ div {
 }
 
 .downloadPageBtnStyle:hover {
+<<<<<<< Updated upstream
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 6px 6px 0 rgba(0,0,0,0.19);
 }
 
+=======
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Download page*/
+.downloadPageLeft, .downloadPageRight{
+  padding: 0px 50px;
+}
+.downloadPreview{
+  max-width:100%;
+  height:auto;
+  width:auto;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.downloadPageBtnStyle{
+  display: block;
+  margin: 0px auto;
+  background-color: rgb(74, 165, 226); /* Green */
+  border: none;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+>>>>>>> Stashed changes
 .anim{
   font-size: 1em;
   font-style: normal;
@@ -197,4 +258,25 @@ a.button {
 
     text-decoration: none;
     color: initial;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.downloadPageBtnStyle:hover {
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  padding-bottom: 20px;
+}
+.footer-infor {
+  margin-bottom: 0;
+}
+>>>>>>> Stashed changes
