@@ -161,11 +161,7 @@ div {
 
 
 /* Download page*/
-.downloadPageLeft, .downloadPageRight{
-  padding: 0px 50px;
-}
 .downloadPreview{
-  max-width:100%;
   height:auto;
   width:auto\9;
   display: block;
@@ -181,39 +177,11 @@ div {
   color: white;
   width: 100px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .downloadPageBtnStyle:hover {
-  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-/* Download page*/
-.downloadPageLeft, .downloadPageRight{
-  padding: 0px 50px;
-}
-.downloadPreview{
-  max-width:100%;
-  height:auto;
-  width:auto\9;
-  display: block;
-  margin: auto;
-  width: 80%;
-}
-
-.downloadPageBtnStyle{
-  display: block;
-  margin: 0px auto;
-  background-color: rgb(74, 165, 226); /* Green */
-  border: none;
-  color: white;
-  width: 100px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.downloadPageBtnStyle:hover {
-  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 6px 6px 0 rgba(0,0,0,0.19);
 }
 
 /* Navbar */
