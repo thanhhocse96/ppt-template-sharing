@@ -4,7 +4,6 @@ body, html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 /* Login Page */
 .loginPage{
   background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%);
@@ -18,7 +17,21 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
+
+/* Justify content for bootstrap 3 */
+.align-center{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.justify-content-center{
+  margin: auto
+}
+
 /* Login by Social */
 /* Shared */
 .loginBtn {
@@ -83,9 +96,13 @@ body, html {
   background: #E74B37;
 }
 
+/* Use for Sign-up and Login */
 .sign-in-form{
   color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
+
 .sign-in-form a{
   color: #ffffff;
 }
@@ -93,4 +110,20 @@ body, html {
 .sign-in-logo{
   width: 60px;
   height: 60px;
+}
+
+.anim{
+  font-size: 1em;
+  font-style: normal;
+  align-content: center;
+}
+
+/* Reference button  */
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
