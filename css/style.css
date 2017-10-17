@@ -269,3 +269,14 @@ a.button {
     display: none;
   }
 }
+
+/* Search Result Page */
+.search-navbar{
+  margin-bottom:0px; 
+  background: -webkit-linear-gradient(90deg, #8400ff 10%, #008af4 90%);
+  background: -moz-linear-gradient(90deg, #8400ff 10%, #008af4 90%);
+  background: -ms-linear-gradient(90deg, #8400ff 10%, #008af4 90%);
+  background: -o-linear-gradient(90deg, #8400ff 10%, #008af4 90%);
+  background: linear-gradient(90deg, #8400ff 10%, #008af4 90%);
+  border: none;
+}
