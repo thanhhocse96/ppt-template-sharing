@@ -232,6 +232,10 @@ a.button {
   margin-bottom: 10px;
 }
 
+.downloadPageName{
+  color: #0083f4;
+}
+
 .downloadPreview{
   height:auto;
   width:auto\9;
