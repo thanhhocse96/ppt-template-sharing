@@ -229,47 +229,61 @@ a.button {
 /* Download page*/
 .downloadPageContent{
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .downloadPageName{
   color: #0083f4;
 }
 
-.downloadPreview{
-  height:auto;
-  width:auto\9;
+.download-info{
+  color: #0083f4;
+}
+
+.download-preview{
+  width: 100%;
+}
+
+.downloadPreview{  
   display: block;
   margin: auto;
-  width: 80%;
+  width: 100%;
+  height:auto;
 }
 
 .downloadPageBtnStyle{
   display: block;
   margin: 0px auto;
-  background-color: rgb(74, 165, 226); /* Green */
+  background-color: rgb(74, 165, 226); 
   border: none;
   color: white;
-  width: 100px;
+  width: 100%;
+  height: 40px;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
+  
 }
 
 .downloadPageBtnStyle:hover {
+  background-color: #8400ff;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .downloadPageAds{
   height: 450px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1.5px solid #0083f4;
+  align-items: left;
+  justify-content: left;
+  margin-left: -10px;
+  /* border: 1.5px solid #0083f4; */
 }
 
 .downloadTextAds{
   opacity: 0.5;
   color: #0083f4;
 }
+
+
 
 /* Footer */
 .footer {
@@ -335,6 +349,8 @@ a.button {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+  display: block;
+  height: auto;
 }
 
 .card-body {
@@ -375,11 +391,6 @@ a.button {
   bottom: 0;
   height: 100%;
   opacity: 0.7;
-}
-
-.template-image{
-  display: block;
-  height: auto;
 }
 
 .overlay {
@@ -434,3 +445,8 @@ a.button {
     color: white;
 }
 /*//End Search Result Page */
+
+.ads-banner{
+  width: 100%;
+  height: 100%
+}
