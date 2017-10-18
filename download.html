@@ -6,44 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="shortcut icon" href="./src/images/Xshare.png" type="image/x-icon">
     <title>Download - XSHARE</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div id="header" class="row">
-
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top search-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="src/images/Logo_white.png" alt="Logo" style="height:40px; margin-top:-10px;">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Web</a>
+                    </li>
+                    <li>
+                        <a href="#">Powerpoint</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                    <li>
+                        <a href="./sign-up.html">
+                            <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div id="content" class="row">
-            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
-                <p>Template...</p>
-                <img class="downloadPreview img-responsive" src="src/images/Xshare.png" alt="Preview">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">`
-                        <button type="button" class="downloadPageBtnStyle">Download</button>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">`
-                        <button type="button" class="downloadPageBtnStyle">Edit</button>
-                    </div>
+    <div class="container-fluid downloadPageContent">
+        <div class="downloadPageAds col-lg-2 col-md-2 hidden-sm hidden-xs">
+            <h1 class="downloadTextAds">Ads</h1>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+            <h3 style="color: #0083f4">Template...</h3>
+            <img class="downloadPreview img-responsive" src="src/images/Xshare.png" alt="Preview">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">`
+                    <button type="button" class="downloadPageBtnStyle">Download</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">`
+                    <button type="button" class="downloadPageBtnStyle">Edit</button>
                 </div>
             </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4">
-                <p>Information</p>
-                <p>Name:</p>
-                <p>Author:</p>
-                <p>Licenses:</p>
-                <p>Tags:</p>
-            </div>
         </div>
 
-        <div id="footer" class="row">
-
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <h3>Information</h3>
+            <h5>Name: </h5>
+            <h5>Author:</h5>
+            <h5>Licenses:</h5>
+            <h5>Tags:</h5>
+        </div>
+        <div class="downloadPageAds col-lg-2 col-md-2 hidden-sm hidden-xs">
+            <h1 class="downloadTextAds">Ads</h1>
         </div>
     </div>
+
+    <footer class="container-fluid" style="margin-bottom: 20px;">
+        <div class="col-md-6">
+            <img src="src/images/Logo-blue.png" alt="" style="height: 50px;">
+            <br>
+            <br>
+            <p class="footer-infor">The product of My Group - Web Programming</p>
+            <p class="footer-infor">Computer Science and Engineering Faculty</p>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div style="margin-top:20px; margin-bottom:30px; padding-left:15px;">
+                    <a href="#">
+                        <strong>Private Policy</strong>
+                    </a>
+                    &nbsp&nbsp&nbsp&nbsp
+                    <a href="#">
+                        <strong>Email</strong>
+                    </a>
+                    &nbsp&nbsp&nbsp&nbsp
+                    <a href="#">
+                        <strong>Donate</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6" style="padding:0;">
+                <div class="col-md-8 " style="padding:0;">
+                    <p class="footer-infor">Huỳnh Hồng Hiển</p>
+                    <p class="footer-infor">Lê Xuân Hải</p>
+                </div>
+                <div class="col-lg-4" style="padding:0;">
+                    <p class="footer-infor">1411239</p>
+                    <p class="footer-infor">1411055</p>
+                </div>
+            </div>
+            <div class="col-lg-6" style="padding:0;">
+                <div class="col-md-8" style="padding:0;">
+                    <p class="footer-infor">Hồ Quang Thanh</p>
+                    <p class="footer-infor">Hồ Ngọc Sơn</p>
+                </div>
+                <div class="col-lg-4" style="padding:0;">
+                    <p class="footer-infor">1413494</p>
+                    <p class="footer-infor">1413289</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -228,6 +228,10 @@ a.button {
 }
 
 /* Download page*/
+.downloadPageContent{
+  margin-bottom: 10px;
+}
+
 .downloadPreview{
   height:auto;
   width:auto\9;
@@ -251,6 +255,18 @@ a.button {
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.downloadPageAds{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #0083f4;
+}
+
+.downloadTextAds{
+  opacity: 0.5;
+  color: #0083f4;
+}
 
 /* Footer */
 .footer {
