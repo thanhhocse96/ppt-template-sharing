@@ -194,21 +194,21 @@ div {
   font-size: 20px;
 }
 .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color:    white;
+  color:    Black;
 }
 .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
- color:    white;
+ color:    Black;
  opacity:  1;
 }
 .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
- color:    white;
+ color:    Black;
  opacity:  1;
 }
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
- color:    white;
+ color:    Black;
 }
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
- color:    white;
+ color:    Black;
 }
 
 .anim{
