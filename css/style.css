@@ -294,6 +294,13 @@ a.button {
   color: black;
   padding-bottom: 20px;
 }
+
+.footer-style{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  size: 1em
+}
+
 .footer-infor {
   margin-bottom: 0;
 }
