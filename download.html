@@ -9,40 +9,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="shortcut icon" href="./src/images/Xshare.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="./src/images/Xshare.png" type="image/x-icon">
     <title>Download - XSHARE</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-expand-lg fixed-top search-navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./src/images/Logo_white.png" alt="Logo" style="height:36px; margin-top:-10px; margin-left:20px;">
-                </a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./src/images/Logo_white.png" alt="Logo" style="height:36px; margin-top:-10px; margin-left:20px;">
+                    </a>
+                       
+                    <input type="text" class="form-control" placeholder="Enter Keywords" style="height: 30px; border-radius: 4px; margin-top: 10px; background: none; color: white; width: 180px; float:left;">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+        
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="./login.html" style="font-family: 'Open Sans', sans-serif;">
+                                <span class="glyphicon glyphicon-log-in"></span> Login
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sign-up.html" style="font-family: 'Open Sans', sans-serif;">
+                                <span class="glyphicon glyphicon-user"></span> Sign Up
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                   
-                    <li>
-                        <a href="./login.html" style="font-family: 'Open Sans', sans-serif;">
-                            <span class="glyphicon glyphicon-log-in"></span> Login
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./sign-up.html" style="font-family: 'Open Sans', sans-serif;">
-                            <span class="glyphicon glyphicon-user"></span> Sign Up
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </nav>
+
 
 
     <div class="container-fluid downloadPageContent">
