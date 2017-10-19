@@ -134,6 +134,7 @@ div {
 .navbar-default .navbar-nav>li>a>span {
   color: white;
 }
+
 @media (max-width: 767px) {
   .navbar {
     background: white;
@@ -156,6 +157,12 @@ div {
   }
 }
 
+.navbar-search-bar{
+  width: 50%;
+  height: 30px; 
+  margin-left:6px; 
+  padding-top: 6px;
+}
 /* Banner */
 #banner {
   position: absolute;
