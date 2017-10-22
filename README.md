@@ -7,7 +7,8 @@ Phiên bản UI 1.0: Một số lỗi hiển thị trên các thiết b
 
 ## Sử dụng để làm gì?
 
-Đây là phiên bản UI của trang web XSHARE - là nơi chia sẻ, chỉnh sửa các template Powerpoint 
+Đây là phiên bản UI của trang web XSHARE - là nơi chia sẻ, chỉnh sửa các template Powerpoint.
+Demo của phiên bản UI: https://thanhhocse96.github.io/ppt-template-sharing/
 
 ## Đóng góp thêm
 
