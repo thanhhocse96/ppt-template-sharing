@@ -20,8 +20,11 @@ Phiên bản UI 1.0: Một số lỗi hiển thị trên các thiết b
 ## Teams: students in CSE faculty BKU
 
 Hồ Quang Thanh - thanh.hoquangcse96@gmail.com
+
 Huỳnh Hồng Hiển
+
 Lê Xuân Hải
+
 Hồ Ngọc Sơn
 
 ## License
