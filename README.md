@@ -1,4 +1,4 @@
-# XSHARE - PowerPoint Template Sharing
+# XSHARE - PowerPoint Template Sharing UI
 
 
 ## Thông tin về phiên bản ứng dụng
@@ -9,6 +9,7 @@ Phiên bản UI 1.0: Một số lỗi hiển thị trên các thiết b
 
 Đây là phiên bản UI của trang web XSHARE - là nơi chia sẻ, chỉnh sửa các template Powerpoint.
 Demo của phiên bản UI: https://thanhhocse96.github.io/ppt-template-sharing/
+Bản đầy đủ giao diện và chức năng: 
 
 ## Đóng góp thêm
 
